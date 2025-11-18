@@ -240,8 +240,9 @@ export function RemittanceFormPanel() {
           onChange={handleChange("corridorBankCode")}
         >
           <option value="J_BANK">J_BANK (일본)</option>
-          {/* 나중에 다른 은행 코드 추가 예정 */}
+          <option value="K_BANK">K_BANK (한국)</option>
         </select>
+
       </div>
 
       <button
